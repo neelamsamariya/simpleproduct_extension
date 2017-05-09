@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<modules>
+		<Neelam_Simpleproducts>
+			<active>true</active>
+			<codePool>local</codePool>
+		</Neelam_Simpleproducts>
+	</modules>
+</config>

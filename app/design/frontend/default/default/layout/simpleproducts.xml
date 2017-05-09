@@ -1,0 +1,11 @@
+<layout version="0.1.0">
+<default>
+    <reference name="content">
+    </reference>
+</default>
+<simpleproducts_index_index>
+    <reference name="content">
+        <block type="simpleproducts/simpleproducts" name="simpleproducts" template="simpleproducts/simpleproducts.phtml" />
+    </reference>
+</simpleproducts_index_index>
+</layout>

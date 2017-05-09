@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Neelam_Simpleproducts>
+      <version>1.0</version>
+    </Neelam_Simpleproducts>
+  </modules>
+  <global>
+    <blocks>
+      <simpleproducts>
+        <class>Neelam_Simpleproducts_Block</class>
+      </simpleproducts>
+    </blocks>    
+  </global> 
+  <frontend>
+        <routers>
+            <simpleproducts>
+                <use>standard</use>
+                <args>
+                    <module>Neelam_Simpleproducts</module>
+                    <frontName>simpleproducts</frontName>
+                </args>
+            </simpleproducts>
+        </routers>
+        <layout>
+           <updates>
+                <simpleproducts>
+                     <file>simpleproducts.xml</file>
+                 </simpleproducts>
+            </updates>
+        </layout>
+    </frontend>     
+</config>
